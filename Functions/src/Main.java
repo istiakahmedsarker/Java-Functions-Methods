@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 //        sum();
-        System.out.println(sum2());
+        System.out.println(sum3(2,4));
     }
 //    return the value
     static int sum2() {
@@ -14,6 +14,9 @@ public class Main {
         int num2 = in.nextInt();
         int ans = num1 + num2;
         return ans;
+    }
+    static  int sum3(int a,int b){
+        return a + b;
     }
     static void sum() {
         Scanner in = new Scanner(System.in);
