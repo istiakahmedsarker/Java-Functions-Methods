@@ -8,6 +8,7 @@ public class Swap {
     }
 
     static void swap (int a,int b){
+        //they are not chaning the previous one it's creating a new object
         int temp = a;
         a=b;
         b=temp;
